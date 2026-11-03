@@ -1,0 +1,1255 @@
+[
+  {
+    "name": "Thịt kho trứng",
+    "description": "Thịt ba chỉ kho mềm cùng trứng vịt trong nước dừa, vị mặn ngọt, ăn với cơm trắng.",
+    "imageUrl": "/images/recipes/thit-kho-trung.jpg",
+    "difficulty": 2,
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "baseServings": 4,
+    "category": "Món mặn",
+    "tastes": ["đậm đà","ngọt","béo"],
+    "ingredients": [
+      {
+        "name": "Thịt ba chỉ",
+        "quantity": 500,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Trứng vịt",
+        "quantity": 4,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Nước dừa tươi",
+        "quantity": 500,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 3,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tím",
+        "quantity": 3,
+        "unit": "củ",
+        "isOptional": false
+      },
+      {
+        "name": "Tỏi",
+        "quantity": 3,
+        "unit": "tép",
+        "isOptional": false
+      },
+      {
+        "name": "Ớt",
+        "quantity": 1,
+        "unit": "quả",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cho trứng vào nồi, đổ nước ngập trứng, đun sôi rồi hạ lửa nhỏ luộc khoảng 10 phút cho chín kỹ.\nThả trứng vào khi nước còn nguội để vỏ không bị nứt.\nCho vào nồi 1 chút muối, nếu trứng có nứt thì lòng trắng cũng không chảy ra nhiều.",
+        "timerSeconds": 600
+      },
+      {
+        "instruction": "Vớt trứng ngâm vào nước lạnh 3-5 phút cho dễ bóc, rồi bóc sạch vỏ. Để riêng.\nGõ nhẹ quanh trứng rồi bóc từ đầu to (có túi khí) sẽ dễ hơn.\nCó thể khứa vài đường mỏng trên trứng cho thấm màu nước kho.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ba chỉ rửa sạch, cắt miếng vuông khoảng 3 cm. Chần qua nước sôi 2-3 phút cho sạch bọt bẩn rồi vớt, rửa lại và để ráo.\nChọn miếng ba chỉ có tỷ lệ nạc mỡ cân đối, da mỏng.\nCạo sạch lông còn sót trên da trước khi cắt.\nChần xong rửa lại bằng nước lạnh để thịt sạch và săn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp thịt với hành tím và tỏi băm, nước mắm và nửa số đường, trộn đều và để thấm 20 phút.\nTrộn đều tay, bóp nhẹ cho gia vị bám vào thịt.\nTrong lúc chờ ướp có thể chuẩn bị nước dừa và trứng.",
+        "timerSeconds": 1200
+      },
+      {
+        "instruction": "Cho 1 thìa canh đường vào nồi, đun lửa nhỏ, không khuấy cho đến khi đường chảy thành màu cánh gián. Cho thịt vào đảo đều đến khi mặt thịt săn lại và lên màu.\nĐường chuyển từ trắng sang vàng rồi nâu cánh gián là được, đừng để chuyển sang nâu đen.\nCho thịt vào ngay khi đường vừa đạt màu, đảo nhanh để thịt áo đều màu.\nCẩn thận: đường nóng rất dễ gây bỏng, không chạm tay vào.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đổ nước dừa ngập mặt thịt, đun sôi, hớt bọt. Thả trứng vào, hạ lửa thật nhỏ, đậy hé vung và kho khoảng 45 phút cho thịt mềm, nước sánh.\nNước dừa phải ngập mặt thịt, thiếu thì bù thêm nước lọc.\nHớt bọt kỹ trong 5 phút đầu để nước kho trong và đẹp.\nKho lửa liu riu, thỉnh thoảng trở trứng cho đều màu.",
+        "timerSeconds": 2700
+      },
+      {
+        "instruction": "Nếm lại cho vừa ăn, thêm ớt nếu thích. Thịt mềm, đũa xuyên qua dễ và nước kho sánh nhẹ là được, tắt bếp.\nNước kho có màu nâu cánh gián, thịt bóng và mềm là đạt.\nThịt kho để qua đêm sẽ thấm hơn, hâm lại vẫn ngon.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Trứng chiên hành",
+    "description": "Món trứng chiên vàng thơm mùi hành, nhanh gọn cho bữa cơm hằng ngày.",
+    "difficulty": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "baseServings": 2,
+    "category": "Món chiên",
+    "tastes": ["béo","đậm đà"],
+    "ingredients": [
+      {
+        "name": "Trứng gà",
+        "quantity": 3,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Hành lá",
+        "quantity": 2,
+        "unit": "cây",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 1,
+        "unit": "thìa cà phê",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Tiêu xay",
+        "quantity": 0.5,
+        "unit": "thìa cà phê",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Rửa hành lá, để ráo thật kỹ rồi thái nhỏ. Hành còn ướt sẽ làm trứng bị nhão và dễ bắn dầu.\nCó thể dùng khăn giấy thấm cho hành nhanh khô.\nThái nhỏ cả phần lá xanh và gốc trắng để trứng thơm hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đập trứng vào tô, cho hành lá, nước mắm và tiêu vào.\nNên đập trứng ra chén riêng trước để kiểm tra trứng còn tươi.\nLượng nước mắm vừa phải, khoảng 1 thìa cà phê cho 3 quả trứng.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Dùng đũa đánh trứng khoảng 1 phút, đến khi hỗn hợp đều màu và hơi nổi bọt nhẹ.\nĐánh đến khi không còn thấy vệt lòng trắng riêng.\nĐánh lâu hơn một chút trứng chiên sẽ xốp và phồng hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đun chảo trên lửa vừa 1 phút cho nóng, cho dầu vào và nghiêng chảo cho dầu tráng đều đáy.\nChảo chống dính giúp trứng dễ lật và không bị rách.\nThử nhỏ 1 giọt trứng vào chảo, nghe xèo nhẹ là dầu đã đủ nóng.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đổ trứng vào chảo, giữ lửa vừa và để yên cho mặt dưới vàng, mặt trên gần khô.\nKhông đảo trứng, chỉ nghiêng chảo cho trứng dàn đều.\nMép trứng vàng và tách khỏi chảo là có thể lật.",
+        "timerSeconds": 90
+      },
+      {
+        "instruction": "Dùng xẻng hoặc lật bằng đĩa, lật mặt trứng và chiên thêm cho chín đều, vàng đẹp.\nLật nhanh, dứt khoát để trứng không bị gãy.\nMuốn trứng mềm bên trong thì chỉ chiên thêm khoảng 30 giây.",
+        "timerSeconds": 60
+      },
+      {
+        "instruction": "Gắp trứng ra đĩa, ăn nóng với cơm trắng.\nĐặt trứng lên giấy thấm dầu vài giây trước khi bày ra đĩa nếu muốn bớt ngấy.\nCắt miếng vừa ăn, chấm kèm nước mắm ớt nếu thích.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Rau muống xào tỏi",
+    "description": "Rau muống xào lửa lớn giữ độ giòn xanh, thơm mùi tỏi phi.",
+    "imageUrl": "/images/recipes/rau-muong-xao-toi.jpg",
+    "difficulty": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "baseServings": 2,
+    "category": "Món xào",
+    "tastes": ["thanh nhẹ"],
+    "ingredients": [
+      {
+        "name": "Rau muống",
+        "quantity": 300,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Tỏi",
+        "quantity": 4,
+        "unit": "tép",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 1,
+        "unit": "thìa cà phê",
+        "isOptional": false
+      },
+      {
+        "name": "Hạt nêm",
+        "quantity": 0.5,
+        "unit": "thìa cà phê",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Nhặt bỏ lá già và phần gốc dai của rau muống, rửa sạch dưới vòi nước, ngắt thành khúc dài khoảng 5 cm.\nChọn rau có cọng non, lá xanh tươi, không bị dập úng.\nNgâm rau trong nước muối loãng 5 phút rồi rửa lại cho sạch.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Để rau thật ráo. Rau còn ướt khi xào sẽ ra nước, rau không xanh và không giòn.\nĐể rau lên rổ cho ráo ít nhất 10 phút, hoặc vẩy cho bớt nước.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đập dập tỏi, băm nhỏ.\nĐập dập trước khi băm giúp tỏi thơm hơn.\nĐể riêng 1 ít tỏi sống, cho vào lúc gần tắt bếp để tỏi thơm hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đun nóng dầu trong chảo, phi tỏi lửa vừa đến khi vừa thơm và hơi vàng nhạt (tránh để cháy vì sẽ đắng).\nTỏi chuyển sang vàng nhạt là vừa, vàng đậm là sắp cháy.\nNếu tỏi cháy thì nên phi lại mẻ khác vì sẽ đắng cả món.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Tăng lửa lớn, cho rau vào, đảo nhanh tay liên tục.\nChảo phải thật nóng trước khi cho rau để rau xào nhanh, giữ màu xanh.\nCho phần cọng vào trước, phần lá vào sau vì cọng lâu chín hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Nêm nước mắm và hạt nêm, tiếp tục đảo đều khoảng 2 phút cho rau vừa chín tới, còn xanh và giòn.\nRau vừa chín tới có màu xanh đậm, cọng còn giòn.\nXào lâu quá rau sẽ thâm và ra nhiều nước.",
+        "timerSeconds": 120
+      },
+      {
+        "instruction": "Tắt bếp, cho ra đĩa ngay để rau không bị mềm và ra nước.\nRắc phần tỏi sống còn lại lên trên khi bày ra đĩa.\nĂn ngay khi còn nóng để rau giòn ngon nhất.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Đậu hũ sốt cà chua",
+    "description": "Đậu hũ chiên vàng sốt cà chua chua nhẹ, món chay đơn giản ăn với cơm.",
+    "imageUrl": "/images/recipes/dau-hu-sot-ca-chua.jpg",
+    "difficulty": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "baseServings": 3,
+    "category": "Món mặn",
+    "tastes": ["chua","thanh nhẹ"],
+    "ingredients": [
+      {
+        "name": "Đậu hũ trắng",
+        "quantity": 4,
+        "unit": "bìa",
+        "isOptional": false
+      },
+      {
+        "name": "Cà chua",
+        "quantity": 3,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Hành lá",
+        "quantity": 2,
+        "unit": "cây",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 3,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 1,
+        "unit": "thìa cà phê",
+        "isOptional": false
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cắt đậu hũ thành miếng vuông vừa ăn, dùng giấy bếp thấm thật khô để khi chiên không bắn dầu.\nCắt miếng dày khoảng 2 cm để khi chiên đậu không bị vỡ.\nĐậu càng khô thì chiên càng ít bắn dầu và vỏ càng giòn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho dầu vào chảo, đun nóng. Xếp đậu hũ vào, chiên lửa vừa, thỉnh thoảng lật cho vàng đều các mặt, khoảng 7 phút rồi vớt ra giấy thấm dầu.\nDầu ngập khoảng 1/3 miếng đậu là đủ.\nChưa vàng mặt dưới thì chưa lật để đậu không dính chảo.\nĐặt đậu lên giấy thấm để ráo bớt dầu.",
+        "timerSeconds": 420
+      },
+      {
+        "instruction": "Cà chua rửa sạch, cắt múi cau. Hành lá tách phần gốc trắng và phần lá xanh, thái nhỏ riêng.\nChọn cà chua chín đỏ, mềm để sốt có màu đẹp.\nCó thể bỏ bớt hạt cà chua cho sốt mịn hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Phi thơm phần gốc hành với một ít dầu, cho cà chua vào xào lửa vừa khoảng 5 phút đến khi cà chua mềm nhừ ra sốt.\nDùng xẻng ấn nhẹ cho cà chua nhanh nát.\nThêm 1 chút muối khi xào để cà chua nhanh ra nước và lên màu.",
+        "timerSeconds": 300
+      },
+      {
+        "instruction": "Nêm nước mắm và đường, thêm 3-4 thìa canh nước, đun sôi nhẹ cho sốt sệt lại.\nNếm thử: sốt có vị chua ngọt mặn hài hòa là được.\nSốt quá đặc thì thêm 1 chút nước, quá loãng thì đun thêm.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho đậu hũ vào, đun nhỏ lửa khoảng 3 phút cho đậu thấm sốt, nhẹ tay đảo để đậu không nát.\nDùng muỗng rưới sốt lên mặt đậu thay vì đảo mạnh.\nĐun nhỏ lửa để sốt thấm vào đậu mà không bị cháy đáy.",
+        "timerSeconds": 180
+      },
+      {
+        "instruction": "Rắc hành lá, nếm lại cho vừa ăn rồi tắt bếp.\nRắc hành lá lúc vừa tắt bếp để hành giữ màu xanh.\nĂn kèm cơm trắng nóng.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Cơm chiên trứng",
+    "description": "Cơm nguội chiên tơi cùng trứng và hành, tận dụng cơm thừa.",
+    "imageUrl": "/images/recipes/com-chien-trung.jpg",
+    "difficulty": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "baseServings": 2,
+    "category": "Cơm và mì",
+    "tastes": ["đậm đà","béo"],
+    "ingredients": [
+      {
+        "name": "Cơm nguội",
+        "quantity": 2,
+        "unit": "chén",
+        "isOptional": false
+      },
+      {
+        "name": "Trứng gà",
+        "quantity": 2,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Hành lá",
+        "quantity": 2,
+        "unit": "cây",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước tương",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Cà rốt",
+        "quantity": 0.5,
+        "unit": "củ",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Lấy cơm nguội ra khỏi tủ lạnh trước khi nấu. Dùng tay bóp tơi cho các hạt cơm rời nhau, cơm càng rời chiên càng ngon.\nCơm để tủ lạnh qua đêm sẽ khô và rời hạt, chiên không bị nhão.\nNếu dùng cơm mới nấu thì trải mỏng ra đĩa cho nguội và bớt hơi nước.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cà rốt gọt vỏ, cắt hạt lựu nhỏ. Hành lá thái nhỏ, tách phần gốc để phi.\nCắt cà rốt nhỏ cỡ hạt đậu để nhanh chín và dễ ăn.\nCó thể thêm đậu Hà Lan hoặc lạp xưởng nếu có.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đun nóng dầu trong chảo, cho trứng đã đánh vào khuấy nhanh cho tơi, đến khi vừa chín thì đẩy sang một bên hoặc múc ra.\nĐánh trứng với 1 chút muối hoặc nước mắm trước khi chiên.\nKhông khuấy quá lâu, trứng vừa đông là được để trứng mềm.",
+        "timerSeconds": 60
+      },
+      {
+        "instruction": "Cho gốc hành và cà rốt vào xào lửa lớn khoảng 2 phút cho cà rốt hơi mềm.\nXào cà rốt đến khi hơi mềm, màu cam tươi hơn là đạt.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho cơm vào, dùng xẻng ép và đảo liên tục trên lửa lớn khoảng 3 phút cho cơm nóng đều, hạt cơm săn lại.\nLửa lớn giúp cơm săn hạt và có mùi thơm.\nDùng xẻng ép bẹp các cục cơm còn dính lại.\nKhông cho thêm nước vào chảo để cơm không bị nhão.",
+        "timerSeconds": 180
+      },
+      {
+        "instruction": "Nêm nước tương, trộn đều rồi cho trứng trở lại chảo, đảo chung cho hòa quyện.\nRưới nước tương quanh thành chảo thay vì đổ thẳng vào cơm để có mùi thơm.\nNếm lại, nhạt thì thêm 1 chút muối hoặc hạt nêm.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Rắc hành lá, đảo thêm 10 giây rồi tắt bếp, dọn ăn nóng.\nCó thể rắc thêm 1 ít tiêu xay khi dọn.\nĂn kèm dưa leo hoặc cà chua thái lát.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Canh cải thịt bằm",
+    "description": "Canh cải xanh nấu với thịt heo bằm, nước ngọt thanh, dễ nấu.",
+    "difficulty": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "baseServings": 3,
+    "category": "Canh",
+    "tastes": ["thanh nhẹ"],
+    "ingredients": [
+      {
+        "name": "Cải xanh",
+        "quantity": 300,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Thịt heo nạc băm",
+        "quantity": 150,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Nước",
+        "quantity": 800,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tím",
+        "quantity": 2,
+        "unit": "củ",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 1.5,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Tiêu xay",
+        "quantity": 0.5,
+        "unit": "thìa cà phê",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Nhặt cải, rửa sạch từng lá dưới vòi nước, cắt thành khúc dài khoảng 4-5 cm. Để ráo.\nNgâm cải trong nước muối loãng khoảng 5 phút rồi rửa lại.\nTách riêng phần cọng và phần lá vì cọng lâu chín hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Hành tím bóc vỏ, băm nhỏ rồi chia làm hai phần: một để ướp thịt, một để phi thơm.\nPhi hành tím lửa vừa để hành không bị cháy đắng.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp thịt băm với một phần hành tím và 1 thìa canh nước mắm, trộn đều và để thấm 10 phút.\nCó thể thêm 1 chút tiêu khi ướp cho thịt thơm hơn.\nTrộn đều tay để thịt thấm gia vị.",
+        "timerSeconds": 600
+      },
+      {
+        "instruction": "Đun nóng 1 thìa dầu, phi thơm hành tím còn lại. Cho thịt vào xào, dùng muỗng tách tơi đến khi thịt chuyển màu và săn lại.\nTách nhỏ thịt khi xào để thịt không vón thành cục.\nThịt chuyển từ màu hồng sang trắng ngà là đã săn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đổ 800 ml nước vào, đun lửa lớn đến khi sôi, vớt bọt nổi cho nước canh trong.\nVớt bọt kỹ để nước canh trong.\nCó thể nêm 1 ít hạt nêm vào lúc này.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho cải vào, nấu thêm khoảng 4 phút cho cải chín mềm nhưng vẫn còn xanh (nấu quá lâu cải sẽ thâm và nhũn).\nCho phần cọng vào trước khoảng 1 phút, sau đó mới cho phần lá.\nKhông đậy vung khi nấu để cải giữ được màu xanh.",
+        "timerSeconds": 240
+      },
+      {
+        "instruction": "Nêm lại nước mắm cho vừa ăn, rắc tiêu nếu thích rồi tắt bếp.\nNếm thử nước canh, thấy ngọt thanh và vừa mặn là được.\nMúc canh ra tô ngay để cải không bị nhũn.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Canh bí đao nấu tôm",
+    "description": "Canh bí đao mát, ngọt từ tôm tươi, hợp bữa cơm ngày nóng.",
+    "imageUrl": "/images/recipes/canh-bi-dao-tom.jpg",
+    "difficulty": 1,
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "baseServings": 3,
+    "category": "Canh",
+    "tastes": ["thanh nhẹ","ngọt"],
+    "ingredients": [
+      {
+        "name": "Bí đao",
+        "quantity": 400,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Tôm tươi",
+        "quantity": 200,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Nước",
+        "quantity": 800,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Hành lá",
+        "quantity": 2,
+        "unit": "cây",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 1.5,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tím",
+        "quantity": 2,
+        "unit": "củ",
+        "isOptional": false
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Bí đao gọt vỏ, bỏ phần ruột và hạt, rửa sạch, cắt miếng vừa ăn dày khoảng 1 cm.\nChọn bí đao vỏ xanh đậm, cầm nặng tay, cuống còn tươi.\nCắt miếng đều nhau để bí chín cùng lúc.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Tôm rửa sạch, bóc vỏ, dùng tăm hoặc dao nhỏ rạch lưng lấy chỉ đen. Hành tím băm, hành lá thái nhỏ.\nRửa tôm với nước muối loãng cho sạch và bớt tanh.\nCó thể đập dập hoặc băm nhỏ tôm nếu muốn nước canh ngọt hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp tôm với một nửa hành tím và 1 thìa cà phê nước mắm, để 10 phút cho thấm.\nƯớp đều tay rồi để tôm thấm trong lúc chuẩn bị các phần khác.",
+        "timerSeconds": 600
+      },
+      {
+        "instruction": "Phi thơm hành tím còn lại với một ít dầu, cho tôm vào xào lửa lớn đến khi tôm chuyển màu đỏ cam.\nXào nhanh trên lửa lớn để tôm săn và giữ được vị ngọt.\nKhông xào quá lâu để tôm không bị dai.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đổ 800 ml nước vào đun sôi, vớt bọt cho nước canh trong.\nVớt bọt trong vài phút đầu để nước canh trong.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho bí vào, hạ lửa vừa, nấu khoảng 8 phút đến khi bí trong và mềm nhưng chưa nát.\nBí chín có màu trong, dùng đũa xiên thấy mềm là được.\nKhông nấu quá lâu kẻo bí bị nát.",
+        "timerSeconds": 480
+      },
+      {
+        "instruction": "Nêm nước mắm cho vừa ăn, rắc hành lá rồi tắt bếp. Canh ngon nhất khi dùng nóng.\nNêm vừa ăn, nếm thấy ngọt thanh là được.\nRắc thêm 1 chút tiêu nếu thích.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Gà kho gừng",
+    "description": "Gà kho với gừng thái sợi, thơm cay ấm, nước kho sánh mặn ngọt.",
+    "imageUrl": "/images/recipes/ga-kho-gung.jpg",
+    "difficulty": 2,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "baseServings": 4,
+    "category": "Món mặn",
+    "tastes": ["đậm đà","cay"],
+    "ingredients": [
+      {
+        "name": "Thịt gà (đùi, cánh)",
+        "quantity": 600,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Gừng",
+        "quantity": 40,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tím",
+        "quantity": 3,
+        "unit": "củ",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 2.5,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 1.5,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước",
+        "quantity": 200,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Tiêu xay",
+        "quantity": 0.5,
+        "unit": "thìa cà phê",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Gà rửa sạch, chà nhẹ với muối rồi rửa lại, chặt miếng vừa ăn, để ráo.\nChà muối giúp gà bớt mùi hôi, da gà sạch hơn.\nChặt miếng vừa ăn, cỡ 3-4 cm để gà nhanh thấm.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Gừng cạo vỏ, thái sợi nhỏ. Hành tím bóc vỏ, băm nhỏ.\nChọn gừng già sẽ thơm và cay hơn gừng non.\nThái sợi càng mỏng gừng càng dễ thấm vào thịt.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp gà với nước mắm, một nửa số đường, hành tím và gừng. Trộn đều, để thấm 15 phút.\nTrộn đều tay, bóp nhẹ để gia vị thấm vào thịt.\nCó thể ướp lâu hơn trong tủ lạnh nếu có thời gian.",
+        "timerSeconds": 900
+      },
+      {
+        "instruction": "Cho phần đường còn lại vào nồi, đun lửa nhỏ đến khi chảy thành màu cánh gián. Cho gà vào, đảo đều đến khi mặt thịt săn và lên màu vàng nâu.\nĐường chuyển sang màu cánh gián là cho gà vào ngay, tránh để cháy đắng.\nĐảo đều để gà áo đều màu nước hàng.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đổ 200 ml nước vào, đun sôi rồi hạ lửa nhỏ. Đậy hé vung, kho khoảng 25 phút, thỉnh thoảng trở gà để thấm đều.\nĐậy hé vung để hơi nước thoát ra bớt, nước kho sánh dần.\nKiểm tra thỉnh thoảng, nếu nước cạn quá nhanh thì thêm 1 ít nước.",
+        "timerSeconds": 1500
+      },
+      {
+        "instruction": "Mở hẳn vung, tăng lửa vừa, rim thêm 5 phút cho nước kho sánh lại và bám vào miếng gà.\nDùng muỗng rưới nước kho lên mặt gà cho bóng đẹp.\nNước kho sánh, bám vào miếng gà là đạt.",
+        "timerSeconds": 300
+      },
+      {
+        "instruction": "Rắc tiêu, nếm lại cho vừa ăn rồi tắt bếp. Dọn nóng với cơm trắng.\nNếm lại, nhạt thì thêm 1 ít nước mắm.\nCó thể thêm vài lát ớt hoặc hành lá khi dọn.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Sườn xào chua ngọt",
+    "description": "Sườn non chiên rồi xào sốt chua ngọt từ cà chua, sánh và đậm đà.",
+    "imageUrl": "/images/recipes/suon-xao-chua-ngot.png",
+    "difficulty": 2,
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "baseServings": 4,
+    "category": "Món xào",
+    "tastes": ["chua","ngọt"],
+    "ingredients": [
+      {
+        "name": "Sườn non",
+        "quantity": 500,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Cà chua",
+        "quantity": 2,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Tỏi",
+        "quantity": 3,
+        "unit": "tép",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Giấm",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 3,
+        "unit": "thìa canh",
+        "isOptional": false
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Chần sườn trong nước sôi 2-3 phút để loại bọt bẩn, vớt ra rửa sạch, để ráo.\nChọn sườn non có nhiều thịt, xương nhỏ.\nChặt khúc khoảng 3-4 cm để dễ chiên và dễ ăn.\nChần sườn với nước có chút muối để khử mùi tốt hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp sườn với tỏi băm, 1 thìa canh nước mắm và 1 thìa canh đường. Trộn đều, để thấm 15 phút.\nTrộn đều tay để gia vị bám đều sườn.\nCó thể thêm 1 ít tiêu khi ướp.",
+        "timerSeconds": 900
+      },
+      {
+        "instruction": "Cà chua cắt múi cau. Tỏi băm riêng một phần để phi.\nCà chua chín đỏ cho sốt có màu đẹp hơn.\nCó thể thay cà chua bằng 2 thìa tương cà nếu muốn tiết kiệm thời gian.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đun nóng dầu, chiên sườn lửa vừa khoảng 8 phút, trở đều cho vàng các mặt rồi vớt ra để ráo dầu.\nThấm khô sườn trước khi chiên để dầu không bắn.\nChiên đến khi các mặt vàng nâu, thịt săn lại.",
+        "timerSeconds": 480
+      },
+      {
+        "instruction": "Để lại ít dầu trong chảo, phi thơm tỏi rồi cho cà chua vào xào khoảng 4 phút đến khi nhừ ra sốt.\nĐể lửa vừa để tỏi không bị cháy.\nDùng xẻng ấn nhẹ cho cà chua nhanh nát.",
+        "timerSeconds": 240
+      },
+      {
+        "instruction": "Thêm giấm, đường, nước mắm và 3-4 thìa canh nước, đun sôi nhẹ, nếm cho vị chua ngọt hài hòa.\nNếm sốt thật kỹ trước khi cho sườn vào, vì sau đó khó điều chỉnh hơn.\nTỷ lệ gợi ý: giấm : đường : nước mắm là 1 : 2 : 2.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho sườn vào, đun nhỏ lửa khoảng 10 phút, đảo đều cho sốt sánh lại và bám đều vào sườn.\nĐảo đều cho tất cả miếng sườn được áo sốt.\nSốt sệt, bóng, bám vào sườn là đạt.\nRắc thêm hành lá hoặc mè rang khi dọn.",
+        "timerSeconds": 600
+      }
+    ]
+  },
+  {
+    "name": "Bò xào hành tây",
+    "description": "Thịt bò xào nhanh lửa lớn với hành tây, mềm vừa và thơm.",
+    "imageUrl": "/images/recipes/bo-xao-hanh-tay.jpg",
+    "difficulty": 2,
+    "prepMinutes": 25,
+    "cookMinutes": 8,
+    "baseServings": 3,
+    "category": "Món xào",
+    "tastes": ["đậm đà","ngọt"],
+    "ingredients": [
+      {
+        "name": "Thịt bò thăn",
+        "quantity": 300,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tây",
+        "quantity": 2,
+        "unit": "củ",
+        "isOptional": false
+      },
+      {
+        "name": "Tỏi",
+        "quantity": 3,
+        "unit": "tép",
+        "isOptional": false
+      },
+      {
+        "name": "Nước tương",
+        "quantity": 1.5,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 3,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Tiêu xay",
+        "quantity": 0.5,
+        "unit": "thìa cà phê",
+        "isOptional": false
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Bò rửa sạch, thấm khô. Thái lát mỏng khoảng 3 mm theo hướng ngang thớ thịt để bò mềm, không bị dai.\nĐể bò trong ngăn đá khoảng 15 phút sẽ dễ thái mỏng hơn.\nNhìn thớ thịt và cắt vuông góc với thớ.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Hành tây bóc vỏ, cắt múi cau. Tỏi băm nhỏ.\nHành tây cắt múi cau dày khoảng 1 cm, tách rời các lớp.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp bò với nước tương, tiêu, một ít tỏi và 1 thìa canh dầu. Trộn đều, để 20 phút cho thịt thấm.\nDầu ăn giúp thịt bò mềm và không bị dính chảo khi xào.\nKhông ướp muối hay nước mắm quá lâu vì thịt dễ bị ra nước và dai.",
+        "timerSeconds": 1200
+      },
+      {
+        "instruction": "Đun chảo thật nóng, cho dầu vào rồi cho bò vào trải đều (không cho quá nhiều một lần).\nChảo thật nóng đến khi dầu hơi bốc khói nhẹ.\nNếu nhiều thịt thì chia làm 2 mẻ xào, cho quá nhiều thịt bò sẽ bị luộc chứ không phải xào.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Xào lửa lớn khoảng 1 phút rưỡi, đảo nhanh tay đến khi bò vừa chuyển màu thì múc ra ngay để thịt không bị dai.\nThịt bò vừa chuyển từ màu đỏ sang nâu là múc ra ngay.\nBò sẽ tiếp tục chín nhờ hơi nóng còn lại.",
+        "timerSeconds": 90
+      },
+      {
+        "instruction": "Dùng lại chảo, phi tỏi còn lại, cho hành tây vào xào khoảng 1 phút rưỡi cho hơi mềm nhưng vẫn giòn.\nHành tây hơi trong, mép còn giòn là được.\nCó thể thêm 1 chút nước tương cho hành tây đậm vị.",
+        "timerSeconds": 90
+      },
+      {
+        "instruction": "Cho bò trở lại chảo, đảo đều trong 15 giây rồi tắt bếp, cho ra đĩa.\nKhông đảo lâu quá để bò không bị dai.\nRắc thêm tiêu và hành lá khi dọn.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Gà rang sả ớt",
+    "description": "Gà rang đậm vị với sả băm và ớt, thơm cay, ăn với cơm rất đưa.",
+    "imageUrl": "/images/recipes/ga-rang-sa-ot.jpg",
+    "difficulty": 2,
+    "prepMinutes": 25,
+    "cookMinutes": 25,
+    "baseServings": 4,
+    "category": "Món mặn",
+    "tastes": ["cay","đậm đà"],
+    "ingredients": [
+      {
+        "name": "Thịt gà",
+        "quantity": 600,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Sả",
+        "quantity": 4,
+        "unit": "cây",
+        "isOptional": false
+      },
+      {
+        "name": "Ớt",
+        "quantity": 2,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Tỏi",
+        "quantity": 4,
+        "unit": "tép",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Dầu ăn",
+        "quantity": 3,
+        "unit": "thìa canh",
+        "isOptional": false
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Gà rửa sạch, chặt miếng nhỏ vừa ăn, để ráo.\nChặt miếng nhỏ cỡ 2-3 cm để gà nhanh chín và thấm gia vị.\nĐể thật ráo trước khi ướp.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Sả bóc bỏ lớp vỏ ngoài, thái lát mỏng rồi băm nhuyễn. Ớt và tỏi băm nhỏ.\nChọn sả có củ to, thân trắng và thơm.\nGiữ lại 1 ít sả băm để phi vàng rắc lên khi dọn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp gà với sả, ớt, tỏi, nước mắm và đường. Trộn đều, để thấm 20 phút.\nBóp nhẹ cho gia vị thấm vào thịt.\nỚt nhiều hay ít tùy khả năng ăn cay.",
+        "timerSeconds": 1200
+      },
+      {
+        "instruction": "Đun nóng dầu, cho gà vào trải đều, rang lửa vừa. Để yên khoảng 1 phút cho mặt dưới săn rồi trở, đảo đều khoảng 10 phút đến khi gà săn mặt.\nTrải gà thành 1 lớp để gà săn đều.\nKhông đảo liên tục ngay từ đầu kẻo gà ra nước.",
+        "timerSeconds": 600
+      },
+      {
+        "instruction": "Hạ lửa nhỏ, đậy vung rang tiếp khoảng 12 phút cho gà chín thấm gia vị, mở vung đảo thỉnh thoảng cho khỏi dính đáy.\nNếu thấy gà bị khô thì thêm 2-3 thìa nước.\nThỉnh thoảng đảo để gà không bị cháy đáy.",
+        "timerSeconds": 720
+      },
+      {
+        "instruction": "Mở vung, tăng lửa lớn, đảo nhanh cho nước cạn, gà khô săn và thơm mùi sả.\nGà chín có màu vàng nâu, khô ráo và thơm mùi sả.\nLửa lớn giúp lớp ngoài săn lại và đậm vị hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Nếm lại rồi tắt bếp. Có thể thêm chút sả phi vàng rắc lên khi dọn.\nPhi sả còn lại đến khi vàng giòn, rắc lên gà.\nĂn kèm cơm trắng và rau sống.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Chè đậu xanh",
+    "description": "Chè đậu xanh nấu nhừ, ngọt dịu, ăn nóng hoặc lạnh đều ngon.",
+    "imageUrl": "/images/recipes/che-dau-xanh.jpg",
+    "difficulty": 2,
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "baseServings": 4,
+    "category": "Tráng miệng",
+    "tastes": ["ngọt","thanh nhẹ"],
+    "ingredients": [
+      {
+        "name": "Đậu xanh cà vỏ",
+        "quantity": 150,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 100,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Nước",
+        "quantity": 1000,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Bột năng",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": true
+      },
+      {
+        "name": "Nước cốt dừa",
+        "quantity": 100,
+        "unit": "ml",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Đãi đậu xanh cà vỏ qua nước vài lần, ngâm trong nước ấm khoảng 1 giờ cho đậu nở mềm.\nĐậu xanh cà vỏ là loại đã tách vỏ, có màu vàng.\nNgâm nước ấm giúp đậu nở nhanh và nấu mau nhừ hơn.",
+        "timerSeconds": 3600
+      },
+      {
+        "instruction": "Vo sạch lại, để ráo.\nVo cho đến khi nước trong là được.\nNhặt bỏ những hạt đậu bị hư hoặc sạn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho đậu và 1 lít nước vào nồi, đun lửa lớn đến khi sôi rồi hạ lửa nhỏ. Hớt bọt nổi trên mặt.\nHớt bọt kỹ để chè trong và không bị đục.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Nấu khoảng 30 phút, thỉnh thoảng khuấy nhẹ, đến khi hạt đậu nở bung và nhừ.\nKhuấy nhẹ thỉnh thoảng để đậu không bị dính đáy nồi.\nNếu nước cạn quá thì thêm nước sôi.\nĐậu nhừ khi dùng tay bóp nhẹ là nát.",
+        "timerSeconds": 1800
+      },
+      {
+        "instruction": "Cho đường vào, khuấy tan và nấu thêm 5 phút. Nếm cho vừa độ ngọt.\nNên cho đường từ từ, nếm rồi thêm, tránh bị quá ngọt.\nCho thêm 1 nhúm muối nhỏ giúp chè đậm vị hơn.",
+        "timerSeconds": 300
+      },
+      {
+        "instruction": "Nếu muốn chè sánh, hòa 1 thìa canh bột năng với nước lạnh, đổ từ từ vào nồi và khuấy đều tay đến khi chè hơi sệt.\nHòa bột năng với nước lạnh trước, không đổ bột khô vào nồi kẻo bị vón cục.\nVừa đổ vừa khuấy đều tay.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Múc ra bát, chan nước cốt dừa lên trên. Ăn nóng hoặc để nguội, thêm đá tùy thích.\nNước cốt dừa có thể đun nóng với 1 chút muối và đường trước khi chan.\nChè để nguội có thể cho vào tủ lạnh ăn mát hơn.",
+        "timerSeconds": 0
+      }
+    ]
+  },
+  {
+    "name": "Cá kho tộ",
+    "description": "Cá kho trong nồi đất với nước màu, tiêu và ớt, đậm đà, nước kho sánh.",
+    "imageUrl": "/images/recipes/ca-kho-to.jpg",
+    "difficulty": 3,
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "baseServings": 4,
+    "category": "Món mặn",
+    "tastes": ["đậm đà","ngọt","cay"],
+    "ingredients": [
+      {
+        "name": "Cá lóc hoặc cá basa (cắt khúc)",
+        "quantity": 600,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 3,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tím",
+        "quantity": 3,
+        "unit": "củ",
+        "isOptional": false
+      },
+      {
+        "name": "Tỏi",
+        "quantity": 3,
+        "unit": "tép",
+        "isOptional": false
+      },
+      {
+        "name": "Ớt",
+        "quantity": 2,
+        "unit": "quả",
+        "isOptional": true
+      },
+      {
+        "name": "Tiêu xay",
+        "quantity": 1,
+        "unit": "thìa cà phê",
+        "isOptional": false
+      },
+      {
+        "name": "Nước dừa hoặc nước lọc",
+        "quantity": 250,
+        "unit": "ml",
+        "isOptional": false
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cá rửa sạch với nước muối loãng cho bớt nhớt và tanh, rửa lại bằng nước sạch rồi để ráo.\nCá lóc tươi có mắt trong, mang đỏ, thịt chắc.\nDùng muối hoặc tro bếp chà để làm sạch nhớt.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Hành tím và tỏi bóc vỏ, băm nhỏ. Ớt thái lát.\nBăm nhỏ hành tỏi để gia vị dễ thấm vào cá.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ướp cá với nước mắm, hành tỏi, tiêu và nửa số đường. Trộn nhẹ tay, để thấm 20 phút.\nƯớp nhẹ tay để cá không bị nát.\nCó thể ướp lâu hơn trong tủ lạnh nếu có thời gian.",
+        "timerSeconds": 1200
+      },
+      {
+        "instruction": "Cho phần đường còn lại vào nồi đất hoặc nồi dày, đun lửa nhỏ đến khi chảy thành màu cánh gián. Bước này dễ cháy nên canh lửa kỹ, nếu đường bốc khói đen là bị khét và sẽ đắng.\nĐường chuyển sang màu cánh gián là tắt bếp hoặc cho cá vào ngay.\nNồi đất giúp nhiệt tỏa đều, cá kho thơm và ngon hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Xếp cá vào nồi, rưới phần nước ướp, đổ nước dừa vào cho ngập khoảng 2/3 cá. Đun sôi rồi hạ lửa liu riu.\nXếp cá thành 1 lớp, không chồng lên nhau nhiều.\nNước dừa giúp cá kho có vị ngọt tự nhiên và bóng màu.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Kho lửa nhỏ khoảng 40 phút. Không khuấy mạnh, chỉ nhẹ nhàng lắc nồi hoặc dùng muỗng rưới nước kho lên mặt cá để cá không nát.\nĐậy vung hé để hơi nước thoát ra từ từ.\nNếu nước cạn sớm mà cá chưa thấm, thêm 1 ít nước sôi.",
+        "timerSeconds": 2400
+      },
+      {
+        "instruction": "Khi nước kho sánh lại, cho ớt vào, nếm lại rồi tắt bếp. Để yên 5 phút cho cá thấm đều.\nNước kho sánh, cá có màu nâu bóng là đạt.\nRắc thêm tiêu xay lên trên khi dọn.",
+        "timerSeconds": 300
+      }
+    ]
+  },
+  {
+    "name": "Canh chua cá",
+    "description": "Canh chua kiểu miền Nam với cá, cà chua, thơm, đậu bắp, vị chua ngọt cân bằng.",
+    "imageUrl": "/images/recipes/canh-chua-ca.jpg",
+    "difficulty": 3,
+    "prepMinutes": 30,
+    "cookMinutes": 25,
+    "baseServings": 4,
+    "category": "Canh",
+    "tastes": ["chua","thanh nhẹ"],
+    "ingredients": [
+      {
+        "name": "Cá (cắt khúc)",
+        "quantity": 400,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Cà chua",
+        "quantity": 2,
+        "unit": "quả",
+        "isOptional": false
+      },
+      {
+        "name": "Thơm (dứa)",
+        "quantity": 150,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Đậu bắp",
+        "quantity": 4,
+        "unit": "trái",
+        "isOptional": false
+      },
+      {
+        "name": "Giá đỗ",
+        "quantity": 100,
+        "unit": "g",
+        "isOptional": true
+      },
+      {
+        "name": "Me chua hoặc nước me",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước",
+        "quantity": 1200,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Đường",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Ngò gai, rau om",
+        "quantity": 1,
+        "unit": "nắm nhỏ",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Cá rửa với muối và một ít giấm hoặc nước cốt chanh cho bớt nhớt, rửa sạch, để ráo.\nChà muối kỹ ở bụng cá và phần da để hết nhớt.\nRửa lại bằng nước lạnh nhiều lần cho hết mùi tanh.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cà chua cắt múi cau. Thơm gọt vỏ, cắt miếng mỏng. Đậu bắp rửa sạch, cắt xéo. Rau thơm cắt nhỏ.\nThơm chín vàng sẽ ngọt và thơm hơn.\nĐậu bắp cắt xéo để khi nấu không bị nhớt nhiều.\nGiá nhặt bỏ rễ, rửa sạch để ráo.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Đun sôi 1,2 lít nước với nước me. Vớt bọt, nêm sơ nước mắm.\nNếu dùng me vắt thì dầm me với nước ấm, lọc bỏ hạt và xác.\nVị chua có thể điều chỉnh sau khi nếm.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho thơm và cà chua vào nấu 5 phút cho ra vị chua ngọt.\nThơm và cà chua ra nước, nồi canh có màu đỏ cam nhạt là được.",
+        "timerSeconds": 300
+      },
+      {
+        "instruction": "Khi nước sôi lại, cho cá vào, nấu lửa vừa khoảng 10 phút đến khi thịt cá chuyển trắng và chín. Không khuấy để cá không nát.\nCho cá vào khi nước sôi để cá không bị tanh.\nVớt bọt nổi lên để nước canh trong.",
+        "timerSeconds": 600
+      },
+      {
+        "instruction": "Nêm nước mắm và đường cho vị chua ngọt hài hòa.\nNếm thử: chua, ngọt, mặn hài hòa, không bên nào lấn át.\nThiếu chua thì thêm nước me, thiếu ngọt thì thêm đường.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho đậu bắp và giá vào nấu thêm 2 phút, rắc ngò gai hoặc rau om rồi tắt bếp.\nRau thơm cho sau cùng để giữ mùi thơm.\nĂn kèm cơm trắng và nước mắm ớt.",
+        "timerSeconds": 120
+      }
+    ]
+  },
+  {
+    "name": "Phở gà",
+    "description": "Nước dùng gà trong, thơm hành gừng nướng, ăn với bánh phở và rau thơm.",
+    "imageUrl": "/images/recipes/pho-ga.jpg",
+    "difficulty": 3,
+    "prepMinutes": 30,
+    "cookMinutes": 90,
+    "baseServings": 4,
+    "category": "Cơm và mì",
+    "tastes": ["thanh nhẹ","đậm đà"],
+    "ingredients": [
+      {
+        "name": "Gà ta (nửa con)",
+        "quantity": 800,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Bánh phở",
+        "quantity": 500,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Nước",
+        "quantity": 2500,
+        "unit": "ml",
+        "isOptional": false
+      },
+      {
+        "name": "Gừng",
+        "quantity": 50,
+        "unit": "g",
+        "isOptional": false
+      },
+      {
+        "name": "Hành tím",
+        "quantity": 4,
+        "unit": "củ",
+        "isOptional": false
+      },
+      {
+        "name": "Muối",
+        "quantity": 1,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Nước mắm",
+        "quantity": 2,
+        "unit": "thìa canh",
+        "isOptional": false
+      },
+      {
+        "name": "Hành lá, ngò",
+        "quantity": 1,
+        "unit": "nắm nhỏ",
+        "isOptional": true
+      },
+      {
+        "name": "Chanh, ớt",
+        "quantity": 1,
+        "unit": "phần",
+        "isOptional": true
+      }
+    ],
+    "steps": [
+      {
+        "instruction": "Chà gà với muối rồi rửa sạch. Chần gà qua nước sôi 3 phút, vớt ra rửa lại với nước lạnh để nước dùng trong.\nChà muối kỹ ở da và trong bụng gà để khử mùi.\nChần qua giúp loại bỏ máu và tạp chất, nước dùng sẽ trong hơn.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Nướng gừng và hành tím trên bếp đến khi thơm và xém vỏ, cạo bỏ phần cháy rồi rửa lại.\nNướng trực tiếp trên bếp gas hoặc trong lò.\nGừng và hành nướng thơm giúp nước dùng có mùi đặc trưng của phở.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho gà, gừng, hành vào nồi với 2,5 lít nước. Đun sôi, hạ lửa nhỏ, thường xuyên hớt bọt và mỡ nổi trên mặt.\nKhông đun sôi sùng sục để nước dùng không bị đục.\nHớt bọt và mỡ thường xuyên trong 20 phút đầu.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Ninh khoảng 50 phút đến khi gà chín mềm. Thử bằng cách chọc đũa vào đùi, nước chảy ra trong là chín.\nCó thể ninh gà nguyên con hoặc chặt đôi để nhanh chín hơn.\nGà chín khi chọc đũa vào phần đùi không thấy nước hồng chảy ra.",
+        "timerSeconds": 3000
+      },
+      {
+        "instruction": "Vớt gà ra, ngâm ngay vào nước đá lạnh khoảng 10 phút cho da giòn và thịt không bị khô, rồi xé hoặc thái miếng.\nNgâm nước đá giúp da gà vàng giòn và thịt săn chắc.\nThái hoặc xé miếng vừa ăn, bỏ bớt xương.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Cho xương gà trở lại nồi, ninh nước dùng thêm 30 phút cho ngọt.\nNinh thêm giúp nước dùng ngọt hơn.\nTiếp tục hớt bọt nếu còn.",
+        "timerSeconds": 1800
+      },
+      {
+        "instruction": "Nêm nước dùng với muối và nước mắm cho vừa ăn. Lọc lại nước dùng nếu muốn trong hơn.\nNêm từ từ, nếm nhiều lần để vừa khẩu vị.\nCó thể thêm 1 chút đường phèn cho nước dùng ngọt thanh.",
+        "timerSeconds": 0
+      },
+      {
+        "instruction": "Chần bánh phở qua nước sôi 20-30 giây, cho vào tô cùng thịt gà và hành lá, chan nước dùng thật nóng, dọn kèm ngò, chanh, ớt.\nTrụng bánh phở nhanh để bánh không bị nát.\nNước dùng phải sôi thật nóng khi chan vào tô.\nDọn kèm chanh, ớt, rau thơm và tương ớt tùy thích.",
+        "timerSeconds": 0
+      }
+    ]
+  }
+]

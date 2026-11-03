@@ -1,0 +1,6 @@
+@CookMate.Api_HostAddress = http://localhost:5255
+
+GET {{CookMate.Api_HostAddress}}/api/health
+Accept: application/json
+
+###

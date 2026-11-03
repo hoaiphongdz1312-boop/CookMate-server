@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Thịt kho trứng",
+    "description": "Thịt ba chỉ kho mềm cùng trứng vịt trong nước dừa, vị mặn ngọt, ăn với cơm trắng.",
+    "difficulty": 2,
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "baseServings": 4,
+    "category": "Món mặn",
+    "ingredients": [
+      { "name": "Thịt ba chỉ", "quantity": 500, "unit": "g", "isOptional": false },
+      { "name": "Trứng vịt", "quantity": 4, "unit": "quả", "isOptional": false },
+      { "name": "Nước dừa tươi", "quantity": 500, "unit": "ml", "isOptional": false },
+      { "name": "Nước mắm", "quantity": 3, "unit": "thìa canh", "isOptional": false },
+      { "name": "Đường", "quantity": 1, "unit": "thìa canh", "isOptional": false },
+      { "name": "Hành tím", "quantity": 3, "unit": "củ", "isOptional": false },
+      { "name": "Tỏi", "quantity": 3, "unit": "tép", "isOptional": false },
+      { "name": "Ớt", "quantity": 1, "unit": "quả", "isOptional": true }
+    ],
+    "steps": [
+      { "instruction": "Luộc trứng khoảng 10 phút, ngâm nước lạnh rồi bóc vỏ.", "timerSeconds": 600 },
+      { "instruction": "Rửa thịt, chần qua nước sôi cho sạch rồi cắt miếng vuông khoảng 3 cm.", "timerSeconds": 0 },
+      { "instruction": "Ướp thịt với hành tỏi băm, nước mắm và đường trong 20 phút.", "timerSeconds": 1200 },
+      { "instruction": "Thắng đường cho có màu cánh gián, cho thịt vào đảo đến khi săn lại.", "timerSeconds": 0 },
+      { "instruction": "Đổ nước dừa ngập thịt, cho trứng vào, đun lửa nhỏ khoảng 45 phút, thỉnh thoảng hớt bọt.", "timerSeconds": 2700 },
+      { "instruction": "Nếm lại cho vừa ăn, thêm ớt nếu thích rồi tắt bếp.", "timerSeconds": 0 }
+    ]
+  },
+  {
+    "name": "Canh chua cá lóc",
+    "description": "Canh chua kiểu miền Nam với cá lóc, me, cà chua, dứa và rau thơm.",
+    "difficulty": 2,
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "baseServings": 4,
+    "category": "Canh",
+    "ingredients": [
+      { "name": "Cá lóc cắt khúc", "quantity": 500, "unit": "g", "isOptional": false },
+      { "name": "Me chua", "quantity": 30, "unit": "g", "isOptional": false },
+      { "name": "Cà chua", "quantity": 2, "unit": "quả", "isOptional": false },
+      { "name": "Dứa", "quantity": 150, "unit": "g", "isOptional": false },
+      { "name": "Bạc hà (dọc mùng)", "quantity": 2, "unit": "cây", "isOptional": false },
+      { "name": "Giá đỗ", "quantity": 100, "unit": "g", "isOptional": false },
+      { "name": "Nước mắm", "quantity": 2, "unit": "thìa canh", "isOptional": false },
+      { "name": "Đường", "quantity": 1, "unit": "thìa canh", "isOptional": false },
+      { "name": "Ngò om, ngò gai", "quantity": 1, "unit": "nắm", "isOptional": true }
+    ],
+    "steps": [
+      { "instruction": "Làm sạch cá, ướp với chút nước mắm trong 10 phút.", "timerSeconds": 600 },
+      { "instruction": "Ngâm me với nước nóng, dầm lấy nước cốt và bỏ hạt.", "timerSeconds": 0 },
+      { "instruction": "Đun sôi 1,5 lít nước cùng nước me, cho dứa và cà chua vào nấu 3 phút.", "timerSeconds": 180 },
+      { "instruction": "Thả cá vào, đun lửa vừa khoảng 7 phút đến khi cá chín, hớt bọt.", "timerSeconds": 420 },
+      { "instruction": "Nêm nước mắm, đường cho có vị chua ngọt, cho bạc hà và giá vào rồi tắt bếp.", "timerSeconds": 0 },
+      { "instruction": "Rắc rau thơm lên trên khi múc ra tô.", "timerSeconds": 0 }
+    ]
+  },
+  {
+    "name": "Rau muống xào tỏi",
+    "description": "Rau muống xào nhanh trên lửa lớn với tỏi phi, giữ màu xanh và giòn.",
+    "difficulty": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "baseServings": 2,
+    "category": "Rau",
+    "ingredients": [
+      { "name": "Rau muống", "quantity": 300, "unit": "g", "isOptional": false },
+      { "name": "Tỏi", "quantity": 4, "unit": "tép", "isOptional": false },
+      { "name": "Dầu ăn", "quantity": 1, "unit": "thìa canh", "isOptional": false },
+      { "name": "Nước mắm", "quantity": 1, "unit": "thìa cà phê", "isOptional": false },
+      { "name": "Hạt nêm", "quantity": 0.5, "unit": "thìa cà phê", "isOptional": true }
+    ],
+    "steps": [
+      { "instruction": "Nhặt rau, rửa sạch, để ráo. Đập dập và băm tỏi.", "timerSeconds": 0 },
+      { "instruction": "Chần rau qua nước sôi khoảng 30 giây rồi vớt ra để giữ màu xanh.", "timerSeconds": 30 },
+      { "instruction": "Phi thơm tỏi với dầu, cho rau vào xào lửa lớn khoảng 2 phút, nêm nước mắm và hạt nêm.", "timerSeconds": 120 }
+    ]
+  }
+]
