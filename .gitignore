@@ -1,0 +1,11 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Cấu hình chứa connection string / khóa bí mật, KHÔNG commit
+CookMate.Api/appsettings.Development.json
+CookMate.Api/appsettings.Production.json
+appsettings.*.local.json
