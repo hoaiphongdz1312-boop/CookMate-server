@@ -93,6 +93,7 @@
   {
     "name": "Trứng chiên hành",
     "description": "Món trứng chiên vàng thơm mùi hành, nhanh gọn cho bữa cơm hằng ngày.",
+    "imageUrl": "/images/recipes/trung-chien-hanh.jpg",
     "difficulty": 1,
     "prepMinutes": 5,
     "cookMinutes": 5,
@@ -396,6 +397,7 @@
   {
     "name": "Canh cải thịt bằm",
     "description": "Canh cải xanh nấu với thịt heo bằm, nước ngọt thanh, dễ nấu.",
+    "imageUrl": "/images/recipes/canh-cai-thit-bam.jpg",
     "difficulty": 1,
     "prepMinutes": 10,
     "cookMinutes": 15,

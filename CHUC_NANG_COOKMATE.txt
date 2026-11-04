@@ -1,0 +1,251 @@
+=====================================================================
+             COOKMATE - ỨNG DỤNG HƯỚNG DẪN NẤU MÓN VIỆT
+                    DANH SÁCH CHỨC NĂNG
+=====================================================================
+
+Sinh viên: Nguyễn Hoài Phong
+
+Mã nguồn:
+  - Ứng dụng di động (Flutter): https://github.com/hoaiphongdz1312-boop/CookMate-app
+  - Server API (ASP.NET Core):  https://github.com/hoaiphongdz1312-boop/CookMate-server
+
+Server đang chạy:
+  - Tài liệu API (Swagger):     https://cookmate2026-001-site1.dtempurl.com/swagger
+  - Địa chỉ API:                https://cookmate2026-001-site1.dtempurl.com/api
+
+File cài đặt: mục Releases của repo CookMate-app
+  - Điện thoại Android:   app-arm64-v8a-release.apk
+  - Máy ảo trên máy tính: app-x86_64-release.apk
+
+
+---------------------------------------------------------------------
+CÔNG NGHỆ SỬ DỤNG
+---------------------------------------------------------------------
+Ứng dụng di động : Flutter (Android 8.0 trở lên), go_router, dio,
+                   flutter_secure_storage
+Server           : ASP.NET Core Web API (.NET 10), Entity Framework Core
+Cơ sở dữ liệu    : SQL Server
+Xác thực         : JWT, phân quyền User / Admin
+Nhận diện mặt    : Google ML Kit (phát hiện mặt) + MobileFaceNet (TensorFlow Lite)
+Giọng nói        : Vosk, mô hình tiếng Việt chạy offline trên máy
+Khác             : Đăng nhập Google, gửi email qua SMTP Gmail, Swagger
+Triển khai       : MyASP.NET
+
+
+=====================================================================
+A. CHỨC NĂNG NGƯỜI DÙNG
+=====================================================================
+
+1. TÀI KHOẢN
+---------------------------------------------------------------------
+ 1.1  Đăng ký tài khoản bằng email và mật khẩu
+ 1.2  Xác thực email bằng mã 6 số gửi về hộp thư
+ 1.3  Gửi lại mã xác thực
+ 1.4  Tự động xóa tài khoản không xác thực email sau một thời gian
+ 1.5  Đăng nhập bằng email và mật khẩu
+ 1.6  Đăng nhập bằng tài khoản Google
+ 1.7  Quên mật khẩu: nhận mã qua email và đặt lại mật khẩu mới
+ 1.8  Tự động giữ đăng nhập (token lưu mã hóa trên máy)
+ 1.9  Đăng xuất
+
+2. ĐĂNG NHẬP BẰNG KHUÔN MẶT
+---------------------------------------------------------------------
+ 2.1  Đăng ký khuôn mặt: app tự chụp 3-5 mẫu khi mặt nhìn thẳng,
+      đủ gần và đủ rõ
+ 2.2  Chỉ gửi vector đặc trưng khuôn mặt lên server, KHÔNG lưu ảnh
+ 2.3  Kiểm tra các mẫu phải của cùng một người
+ 2.4  Không cho một khuôn mặt đăng ký vào nhiều tài khoản
+ 2.5  Đăng nhập bằng khuôn mặt, không cần nhập email/mật khẩu
+ 2.6  Chống giả mạo bằng ảnh in: yêu cầu chớp mắt trước khi xác nhận
+ 2.7  Server so khớp bằng độ tương đồng cosine, có ngưỡng khớp và
+      khoảng cách an toàn với người giống thứ hai
+ 2.8  Xóa dữ liệu khuôn mặt khỏi tài khoản
+
+3. KHẨU VỊ
+---------------------------------------------------------------------
+ 3.1  Chọn khẩu vị yêu thích ngay sau lần đăng nhập đầu:
+      cay, chua, ngọt, đậm đà, thanh nhẹ, béo (có thể bỏ qua)
+ 3.2  Sửa lại khẩu vị trong tab Hồ sơ
+ 3.3  Gợi ý món ăn phù hợp khẩu vị ở trang chủ
+
+4. CÔNG THỨC NẤU ĂN
+---------------------------------------------------------------------
+ 4.1  Xem danh sách công thức hệ thống (món cộng đồng nằm ở tab Cộng đồng)
+ 4.2  Tìm kiếm món theo tên
+ 4.3  Lọc theo danh mục và độ khó
+ 4.4  Xem chi tiết: ảnh, mô tả, độ khó, thời gian chuẩn bị/nấu,
+      nguyên liệu và các bước làm
+ 4.5  Thay đổi số người ăn, định lượng nguyên liệu tự tính lại
+
+5. "HÔM NAY ĂN GÌ?"
+---------------------------------------------------------------------
+ 5.1  Chọn bộ lọc: danh mục, độ khó, thời gian nấu (15 / 30 / 60 phút)
+ 5.2  Quay ngẫu nhiên một món, có hiệu ứng quay
+ 5.3  Món đã trúng không lặp lại khi quay tiếp
+ 5.4  Mở xem chi tiết hoặc nấu ngay món vừa trúng
+
+6. CHẾ ĐỘ NẤU TỪNG BƯỚC
+---------------------------------------------------------------------
+ 6.1  Mỗi bước một màn hình, nút bước trước / bước sau, thanh tiến độ
+ 6.2  Hẹn giờ cho bước cần thời gian, báo khi hết giờ
+ 6.3  Giữ màn hình luôn sáng khi đang nấu
+ 6.4  Lưu tiến độ lên server: thoát ra vào lại vẫn tiếp tục đúng bước
+ 6.5  Chọn "Nấu lại" để bắt đầu từ bước 1
+ 6.6  Đánh dấu hoàn thành món
+ 6.7  Xem tiến độ nấu ăn: món đang nấu dở, món đã hoàn thành
+
+7. ĐIỀU KHIỂN BẰNG GIỌNG NÓI (TIẾNG VIỆT, OFFLINE)
+---------------------------------------------------------------------
+ 7.1  Gọi "Bếp ơi" để ra lệnh, rảnh tay khi đang nấu
+ 7.2  Nhận dạng giọng nói tiếng Việt ngay trên máy, không cần mạng
+ 7.3  Lệnh khi đang nấu:
+        - "bước tiếp theo" / "tiếp theo"
+        - "bước trước" / "quay lại"
+        - "hẹn giờ" / "bắt đầu hẹn giờ"
+        - "dừng hẹn giờ" / "tạm dừng"
+ 7.4  Lệnh dùng ở mọi màn hình:
+        - "mở món đang nấu"
+        - "về trang chủ"
+        - "hôm nay ăn gì"
+ 7.5  Bật / tắt chế độ nghe "Bếp ơi"
+ 7.6  Tự dừng nghe khi đang dùng camera hoặc app chạy nền
+
+8. CỘNG ĐỒNG CHIA SẺ CÔNG THỨC
+---------------------------------------------------------------------
+ 8.1  Xem bảng tin công thức do người dùng chia sẻ (đã được duyệt)
+ 8.2  Đăng công thức mới: ảnh, tên, mô tả, danh mục, độ khó, thời gian,
+      khẩu phần, khẩu vị, nguyên liệu, các bước
+ 8.3  Bài mới ở trạng thái "Chờ duyệt" cho tới khi admin duyệt
+ 8.4  Người dùng đã có 3 bài được duyệt thì các bài sau tự động được duyệt
+ 8.5  "Bài của tôi": xem trạng thái từng bài (chờ duyệt / đã duyệt /
+      bị từ chối) và lý do bị từ chối
+ 8.6  Sửa bài đang chờ duyệt hoặc bị từ chối rồi gửi duyệt lại
+ 8.7  Xóa bài của mình
+ 8.8  Giới hạn số bài đăng mỗi giờ để chống spam
+
+9. BÁO CÁO VÀ CHẶN
+---------------------------------------------------------------------
+ 9.1  Báo cáo bài vi phạm với lý do: sai thông tin, spam, phản cảm,
+      vi phạm bản quyền, khác (kèm mô tả)
+ 9.2  Mỗi người chỉ báo cáo một bài một lần
+ 9.3  Chặn người dùng: bài của người bị chặn không còn hiện trên bảng tin
+ 9.4  Xem danh sách người đã chặn và bỏ chặn
+
+10. THÔNG BÁO
+---------------------------------------------------------------------
+ 10.1 Nhận thông báo khi bài được duyệt, bị từ chối hoặc bị gỡ
+ 10.2 Hiện số thông báo chưa đọc
+ 10.3 Đánh dấu tất cả đã đọc
+
+11. HỒ SƠ
+---------------------------------------------------------------------
+ 11.1 Xem thông tin tài khoản
+ 11.2 Quản lý khuôn mặt (đăng ký / xóa)
+ 11.3 Sửa khẩu vị
+ 11.4 Xem tiến độ nấu ăn
+ 11.5 Quản lý người đã chặn
+
+
+=====================================================================
+B. CHỨC NĂNG QUẢN TRỊ VIÊN (ADMIN)
+=====================================================================
+ B.1  Xem danh sách bài cộng đồng đang chờ duyệt (kèm số lượng)
+ B.2  Xem chi tiết bài và Duyệt
+ B.3  Từ chối bài kèm lý do (người đăng nhận được thông báo)
+ B.4  Thêm công thức hệ thống, đăng thẳng không qua duyệt
+ B.5  Xem danh sách bài bị báo cáo (kèm số lượng và lý do)
+ B.6  Gỡ bài vi phạm (người đăng nhận được thông báo)
+ B.7  Bỏ qua báo cáo nếu bài không vi phạm
+ B.8  Xóa bất kỳ bài cộng đồng nào
+ B.9  Server kiểm tra quyền admin cho mọi thao tác quản trị
+
+
+=====================================================================
+C. BẢO MẬT VÀ XỬ LÝ PHÍA SERVER
+=====================================================================
+ C.1  Mật khẩu được băm, không lưu dạng gốc
+ C.2  Xác thực bằng JWT, token có thời hạn
+ C.3  Giới hạn số lần đăng nhập sai theo địa chỉ IP
+ C.4  Mã xác thực email có thời hạn và giới hạn số lần nhập sai
+ C.5  Thông tin bí mật (khóa JWT, mật khẩu email, chuỗi kết nối
+      cơ sở dữ liệu) không đưa lên GitHub
+ C.6  Kiểm tra dữ liệu đầu vào, trả lỗi rõ ràng bằng tiếng Việt
+ C.7  Xóa mềm bài viết: lịch sử nấu ăn vẫn tham chiếu được
+ C.8  Tự nạp dữ liệu mẫu (danh mục, công thức) khi cơ sở dữ liệu trống
+ C.9  Kiểm thử tự động: server (xUnit) và ứng dụng (Flutter test)
+
+
+=====================================================================
+D. DANH SÁCH API (44 API)
+=====================================================================
+Tài khoản
+  POST   /api/auth/register            Đăng ký
+  POST   /api/auth/verify-email        Xác thực email
+  POST   /api/auth/resend-code         Gửi lại mã
+  POST   /api/auth/forgot-password     Quên mật khẩu
+  POST   /api/auth/reset-password      Đặt lại mật khẩu
+  POST   /api/auth/login               Đăng nhập
+  POST   /api/auth/google              Đăng nhập Google
+
+Khuôn mặt
+  POST   /api/auth/face-enroll         Đăng ký khuôn mặt
+  POST   /api/auth/face-login          Đăng nhập bằng khuôn mặt
+  DELETE /api/auth/face                Xóa dữ liệu khuôn mặt
+
+Công thức
+  GET    /api/categories               Danh mục
+  GET    /api/recipes                  Danh sách, tìm kiếm, lọc
+  GET    /api/recipes/recommended      Gợi ý theo khẩu vị
+  GET    /api/recipes/random           Chọn món ngẫu nhiên
+  GET    /api/recipes/{id}             Chi tiết công thức
+
+Nấu ăn
+  POST   /api/cooking-sessions                 Bắt đầu nấu
+  PATCH  /api/cooking-sessions/{id}            Lưu bước đang nấu
+  POST   /api/cooking-sessions/{id}/complete   Hoàn thành
+  GET    /api/users/me/progress                Tiến độ nấu ăn
+
+Người dùng
+  GET    /api/users/me                 Thông tin tài khoản
+  PUT    /api/users/me/tastes          Lưu khẩu vị
+  GET    /api/users/me/blocks          Danh sách đã chặn
+  POST   /api/users/{id}/block         Chặn người dùng
+  DELETE /api/users/{id}/block         Bỏ chặn
+
+Cộng đồng
+  POST   /api/community/images              Tải ảnh lên
+  GET    /api/community/recipes             Bảng tin cộng đồng
+  POST   /api/community/recipes             Đăng bài
+  GET    /api/community/recipes/mine        Bài của tôi
+  PUT    /api/community/recipes/{id}        Sửa bài
+  DELETE /api/community/recipes/{id}        Xóa bài
+  POST   /api/community/recipes/{id}/report Báo cáo bài
+
+Thông báo
+  GET    /api/notifications                Danh sách thông báo
+  GET    /api/notifications/unread-count   Số chưa đọc
+  POST   /api/notifications/read-all       Đánh dấu đã đọc
+
+Quản trị
+  GET    /api/admin/recipes/pending              Bài chờ duyệt
+  GET    /api/admin/recipes/pending/count        Số bài chờ duyệt
+  POST   /api/admin/recipes                      Thêm công thức hệ thống
+  POST   /api/admin/recipes/{id}/approve         Duyệt bài
+  POST   /api/admin/recipes/{id}/reject          Từ chối bài
+  GET    /api/admin/reports                      Bài bị báo cáo
+  GET    /api/admin/reports/count                Số bài bị báo cáo
+  POST   /api/admin/reports/recipes/{id}/takedown  Gỡ bài
+  POST   /api/admin/reports/recipes/{id}/dismiss   Bỏ qua báo cáo
+
+Khác
+  GET    /api/health                   Kiểm tra server
+
+
+=====================================================================
+E. HƯỚNG PHÁT TRIỂN
+=====================================================================
+ - Lưu món yêu thích
+ - Bình luận và đánh giá sao cho công thức
+ - Sửa hồ sơ cá nhân (tên, ảnh đại diện), đổi mật khẩu
+ - Thông báo đẩy (push notification) qua Firebase
+ - Hỗ trợ iPhone (iOS)
